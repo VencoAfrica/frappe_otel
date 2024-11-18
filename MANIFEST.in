@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include frappe_otel *.css
+recursive-include frappe_otel *.csv
+recursive-include frappe_otel *.html
+recursive-include frappe_otel *.ico
+recursive-include frappe_otel *.js
+recursive-include frappe_otel *.json
+recursive-include frappe_otel *.md
+recursive-include frappe_otel *.png
+recursive-include frappe_otel *.py
+recursive-include frappe_otel *.svg
+recursive-include frappe_otel *.txt
+recursive-exclude frappe_otel *.pyc
