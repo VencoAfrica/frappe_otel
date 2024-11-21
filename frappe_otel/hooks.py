@@ -9,3 +9,5 @@ app_color = "grey"
 app_email = "support@castlecraft.in"
 app_license = "MIT"
 app_version = __version__
+
+before_job = ["frappe_otel.background.init_background_tracing"]
